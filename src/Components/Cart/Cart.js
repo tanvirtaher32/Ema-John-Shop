@@ -30,6 +30,7 @@ const Cart = (props) => {
             <p>
                 Total : {grandTotal.toFixed(2)}
             </p>
+            {props.children}
         </div>
     );
 };

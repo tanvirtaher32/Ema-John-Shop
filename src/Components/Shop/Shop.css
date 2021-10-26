@@ -21,3 +21,12 @@
     margin-right: 8px;
     margin-left:30px
 }
+.reviewBtn{
+    background-color:goldenrod;
+    color:black;
+    border: 1px solid dimgray;
+    border-radius:5px;
+    height:25px;
+    width:100px;
+    cursor:pointer;
+}
