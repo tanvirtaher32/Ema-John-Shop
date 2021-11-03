@@ -1,0 +1,11 @@
+.signup-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-btn{
+    width:60%;
+    background-color:goldenrod;
+    border: 1px solid dimgray;
+    border-radius:5px;
+}

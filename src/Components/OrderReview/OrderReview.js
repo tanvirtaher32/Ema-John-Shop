@@ -5,6 +5,7 @@ import Cart from '../Cart/Cart';
 import ReviewItem from '../ReviewItem/ReviewItem';
 import { clearTheCart, removeFromDb } from '../../utilities/fakedb';
 import { useHistory } from 'react-router';
+import './OrderReview.css';
 
 const OrderReview = () => {
 
@@ -22,9 +23,9 @@ const OrderReview = () => {
 
     const handlePlaceOrder = () => {
 
-        history.push('/placeorder');
-        setCart([]);
-        clearTheCart()
+        history.push('/shipping');
+        // setCart([]);
+        // clearTheCart()
 
     }
     return (
@@ -41,7 +42,7 @@ const OrderReview = () => {
             <div className="cart-container">
 
                 <Cart cart={cart}>
-                    <button className="reviewBtn" onClick={handlePlaceOrder}>Place Order</button>
+                    <button className="shipping-btn" onClick={handlePlaceOrder}>Proceed Shipping</button>
                 </Cart>
             </div>
             
